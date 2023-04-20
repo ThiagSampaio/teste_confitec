@@ -36,13 +36,13 @@ def multiply_matrix(matrix_A, matrix_B):
     row_2 = len(matrix_B)
 
     if col_1 != row_2:
-        print("\nError: O numero de colunas da Matriz A tem que ser igual o número de linha da matriz B\n")
+        print("\nError: O numero de colunas da Matriz A != Linha da matriz B\n")
         return 0
 
     result_matrix_row = [0] * col_2
     result_matrix = [[0 for x in range(col_2)] for y in range(row_1)]
 
-    if (col_1 == 1):
+    if col_1 == 1:
         result_matrix[0][0] = matrix_A[0][0] * matrix_B[0][0]
 
     else:
