@@ -1,1 +1,1 @@
-print('thiago')s
+print('thiago')
