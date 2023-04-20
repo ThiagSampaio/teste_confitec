@@ -4,44 +4,18 @@
 
 # 1. Introdução
 
+- Esta pasta o Leitor encontrará a solução da questão 2.
+- Nesta pasta o leitor encontrará 2 arquivos:  `TESTEPYSPARK-Confitec-Algoritmo.py` e `Strassen-Confitec-Algoritmo.py`
+- No arquivo `TESTEPYSPARK-Confitec-Algoritmo.py` temos a implementação de um algoritmo de multiplicação de matrizes quadradas, com ordem de complexidade de n^3 . Os tamanhos das matrizes quadradas podem variar entre 2 até 20, sendo seus componentes inteiros(valores aleatórios).
+- No Arquivo `Strassen-Confitec-Algoritmo.py`, temos a implementação de um algoritmo de multiplicação de matrizes utilizando método de strassen, com complexidade de n^2.8. O método também é conhecido como "dividir e conquistar". Esse algoritmo está limitado ao tamanho de matrizes quadradas 4x4, podendo ser melhorado para ser generalista como o primeiro.
 
+# 2. Preparação do ambiente
 
-# 2. Tech Stack
+## 2.1. Criando o ambiente
 
-## 2.1. Frameworks
-
-
-
-## 2.2. Linguagens de programação
-
-
-## 2.3. Servidor VPS
-
-
-
-## 2.4. Base de dados
-
-
-
-# 3. Segurança
-
-
-
-# 4. Automações de processos
-
-## 4.1. Automação operacional
-
-
-
-### 4.1.1. Automação do memorial descritivo
-
-
-
-### 4.1.2. Automação do formulário de solicitação de GD
-
-
-## 4.2. Automação da proposta comercial
-
-### 4.2.1. Automação da proposta comercial
-
-
+- No seu computador, com python já instalado, crie uma pasta para seu projeto.
+- Vá até a pasta pelo terminal da sua IDE e crie um ambiente python3 da sua escolha, utilizando
+o comando `python -m venv [nome do ambiente]`.
+- Copie os arquivos desta pasta para pasta criada.
+- Ative o ambiente e instale o requierements.txt.
+- Você está pronto para usar o programa.
