@@ -35,7 +35,7 @@ def multiply_matrix(matrix_A, matrix_B):
     col_2 = len(matrix_B[0])
     row_2 = len(matrix_B)
 
-    if (col_1 != row_2):
+    if col_1 != row_2:
         print("\nError: O numero de colunas da Matriz A tem que ser igual o número de linha da matriz B\n")
         return 0
 
